@@ -1,19 +1,18 @@
 'use strict';
+let money = prompt("What is your month budget?", "12000");
+let time = prompt("Введите дату в формате YYYY-MM-DD", "2019-08-08");
+let expenseItem = prompt("Введите обязательную статью расходов в этом месяце", "");
+let cost = prompt("Во сколько обойдется?", "");
 
-console.log(leftBorderWidth);
-var leftBorderWidth = 1;
-let second = 2;
-const pi = 3.14;
-let persone = {
-    name:"John",
-    age:"25",
-    isMaried:"true"
+let expenses = {
+    expenseItem : cost
 };
-console.log(persone["name"]);
-
-let arr = ['plum.png','orange.jpg','apple.bmp'];
-for (let i = 0; i < 3; i++){
-console.log(arr[i]);
-}
-let answer = prompt("You are there!", "Yeah");
-console.log(typeof(null));
+let appData = {
+  "budget": money,
+  "timeData": time,
+  "expenses ": expenses,
+  "optionalExpenses": null,
+  "income": [],
+  "savings": false 
+};
+alert("Бюджет на 1 день составляет " + appData.budget/30);
