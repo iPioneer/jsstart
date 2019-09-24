@@ -21,8 +21,7 @@ body {
 }
 
 .main {
-    height: 55hv;
-    background: #2a6bb1;
+    height: 55hv;    
     box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0, 5);
     width: 60%;
     margin: 0 auto;
