@@ -2,7 +2,7 @@ import React from 'react';
 
 const Weather = (props) => {              
         return(        
-        <div className="infoWeath">   
+        <div className="infoWeather">   
             {props.city ?  
                 <div>
                      <table className="weatherTable">
